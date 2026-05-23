@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+  <script>document.documentElement.classList.remove('no-js');</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <title>Recruit | NEXUS Inc.</title>
+  <meta name="description" content="NEXUS Inc. の採用情報ページです。" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a0a'/%3E%3Ctext x='50' y='68' font-family='Arial' font-size='60' font-weight='800' fill='%234f8cff' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E" />
+
+  <!-- Stylesheets（読み込み順: reset → style → pages） -->
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="../index.html" class="header__logo" aria-label="NEXUS Inc. ホームへ">
+        <span class="header__logo-mark">N</span>
+        <span class="header__logo-text">NEXUS</span>
+      </a>
+
+      <nav class="nav" aria-label="メインナビゲーション">
+        <ul class="nav__list">
+          <li><a href="../index.html" class="nav__link">HOME</a></li>
+          <li><a href="service.html" class="nav__link">SERVICE</a></li>
+          <li><a href="works.html" class="nav__link">WORKS</a></li>
+          <li><a href="company.html" class="nav__link">COMPANY</a></li>
+          <li><a href="recruit.html" class="nav__link is-active">RECRUIT</a></li>
+          <li><a href="blog.html" class="nav__link">BLOG</a></li>
+        </ul>
+      </nav>
+
+      <a href="contact.html" class="header__cta btn btn--primary">
+        <span>CONTACT</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== ドロワー ========== -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav class="drawer__nav" aria-label="モバイルナビゲーション">
+      <ul class="drawer__list">
+        <li><a href="../index.html" class="drawer__link"><span class="drawer__num">01</span>HOME</a></li>
+        <li><a href="service.html" class="drawer__link"><span class="drawer__num">02</span>SERVICE</a></li>
+        <li><a href="works.html" class="drawer__link"><span class="drawer__num">03</span>WORKS</a></li>
+        <li><a href="company.html" class="drawer__link"><span class="drawer__num">04</span>COMPANY</a></li>
+        <li><a href="recruit.html" class="drawer__link"><span class="drawer__num">05</span>RECRUIT</a></li>
+        <li><a href="blog.html" class="drawer__link"><span class="drawer__num">06</span>BLOG</a></li>
+        <li><a href="contact.html" class="drawer__link"><span class="drawer__num">07</span>CONTACT</a></li>
+      </ul>
+      <div class="drawer__info">
+        <p class="drawer__info-label">Get in touch</p>
+        <a href="mailto:info@nexus-example.com" class="drawer__info-mail">info@nexus-example.com</a>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <!-- ========== Page Hero ========== -->
+    <section class="page-hero">
+      <div class="page-hero__bg" aria-hidden="true"></div>
+      <div class="page-hero__inner container">
+        <span class="page-hero__label">05 — Recruit</span>
+        <h1 class="page-hero__title">
+          Recruit
+          <span class="page-hero__title-jp">採用情報</span>
+        </h1>
+        <nav class="breadcrumb" aria-label="パンくずリスト">
+          <a href="../index.html">HOME</a>
+          <span class="breadcrumb__sep">/</span>
+          <span>RECRUIT</span>
+        </nav>
+      </div>
+    </section>
+
+        <section class="section">
+          <div class="container">
+            <!-- 募集職種 -->
+            <div class="block" data-animate="fade-up">
+              <h2 class="block__heading">募集職種</h2>
+              <p class="block__body">
+                新卒採用・中途採用ともに、以下のポジションでメンバーを募集しています。
+                未経験から挑戦できるポジションも用意しています。
+              </p>
+              <ul class="list list--check">
+                <li>フロントエンドエンジニア</li>
+                <li>バックエンドエンジニア</li>
+                <li>AI / 機械学習エンジニア</li>
+                <li>UI/UX デザイナー</li>
+                <li>プロジェクトマネージャー</li>
+              </ul>
+            </div>
+
+            <!-- 求める人物像 -->
+            <div class="block" data-animate="fade-up">
+              <h2 class="block__heading">求める人物像</h2>
+              <p class="block__body">
+                変化を楽しみ、技術で課題を解決することに情熱を持てる方を歓迎します。
+                経歴やスキルレベルよりも、「学び続ける姿勢」と「ものづくりへの関心」を重視しています。
+              </p>
+              <ul class="list list--dot">
+                <li>新しい技術や考え方を、面白がって取り入れられる方</li>
+                <li>チームで議論し、より良いアウトプットを目指せる方</li>
+                <li>「なぜそうするか」を言語化できる方</li>
+              </ul>
+            </div>
+
+            <!-- 選考フロー -->
+            <div class="block" data-animate="fade-up">
+              <h2 class="block__heading">選考フロー</h2>
+              <p class="block__body">
+                ご応募から内定まで、おおむね2〜3週間を想定しています。
+                ご都合に合わせて柔軟に日程調整いたします。
+              </p>
+              <div class="cards cards--4">
+                <div class="card">
+                  <span class="card__label">STEP 01</span>
+                  <h3 class="card__title">エントリー</h3>
+                  <p class="card__body">
+                    ご応募フォームよりエントリーいただき、ポートフォリオや制作物をもとにこれまでの経験・学習内容を確認します。
+                  </p>
+                </div>
+                <div class="card">
+                  <span class="card__label">STEP 02</span>
+                  <h3 class="card__title">カジュアル面談</h3>
+                  <p class="card__body">
+                    会社理解と相互理解を目的に、オンラインで面談を行います。質問・相談ベースの場として活用ください。
+                  </p>
+                </div>
+                <div class="card">
+                  <span class="card__label">STEP 03</span>
+                  <h3 class="card__title">面接</h3>
+                  <p class="card__body">
+                    技術への関心、制作時の考え方、チームでの働き方を、対話を通じて確認していきます。
+                  </p>
+                </div>
+                <div class="card">
+                  <span class="card__label">STEP 04</span>
+                  <h3 class="card__title">内定</h3>
+                  <p class="card__body">
+                    条件面のすり合わせを行い、入社までの準備を一緒に進めていきます。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 働く環境 -->
+            <div class="block" data-animate="fade-up">
+              <h2 class="block__heading">働く環境</h2>
+              <p class="block__body">
+                デザイナー、エンジニア、ディレクターが職種を越えて連携し、企画から改善まで一貫して関わる制作体制を想定しています。
+                役職や経験年数に関わらず、意見を出し合える文化を大切にしています。
+              </p>
+              <div class="cards cards--3">
+                <div class="card card--accent">
+                  <h3 class="card__title">クロスファンクショナル</h3>
+                  <p class="card__body">
+                    職種の垣根を越えて、企画段階からチームで議論する制作プロセスを取り入れています。
+                  </p>
+                </div>
+                <div class="card card--accent">
+                  <h3 class="card__title">挑戦できる裁量</h3>
+                  <p class="card__body">
+                    年次に関わらず、適性に応じて新しい技術領域・主担当案件にチャレンジできる環境を目指しています。
+                  </p>
+                </div>
+                <div class="card card--accent">
+                  <h3 class="card__title">フィードバック文化</h3>
+                  <p class="card__body">
+                    1on1や週次のレビューを通じて、お互いの仕事に建設的なフィードバックを交換する文化があります。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 福利厚生 -->
+            <div class="block" data-animate="fade-up">
+              <h2 class="block__heading">福利厚生</h2>
+              <p class="block__body">
+                働く一人ひとりが、長く・健やかに成長していけるよう、制度面でのサポートを整えています。
+              </p>
+              <div class="cards cards--3">
+                <div class="card">
+                  <h3 class="card__title">学習支援</h3>
+                  <p class="card__body">
+                    書籍購入、勉強会・カンファレンス参加など、継続的なスキルアップを支援します。
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="card__title">ハイブリッド勤務</h3>
+                  <p class="card__body">
+                    出社とリモートを組み合わせ、業務内容や個人の事情に合わせて柔軟に働き方を選べます。
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="card__title">メンター制度</h3>
+                  <p class="card__body">
+                    入社後は先輩社員がメンターとして、制作・開発の進め方や悩みを継続的にサポートします。
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="card__title">ツール・機材</h3>
+                  <p class="card__body">
+                    希望に応じたPC・モニター・ソフトウェアライセンスを会社で用意します。
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="card__title">健康サポート</h3>
+                  <p class="card__body">
+                    定期健康診断、メンタルヘルス相談窓口など、心身の健康面でのサポートを整えています。
+                  </p>
+                </div>
+                <div class="card">
+                  <h3 class="card__title">休暇制度</h3>
+                  <p class="card__body">
+                    有給休暇のほか、リフレッシュ休暇など、しっかり休める制度設計を想定しています。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- エントリーCTA -->
+            <div class="block" data-animate="fade-up">
+              <h2 class="block__heading">ご応募・お問い合わせ</h2>
+              <p class="block__body">
+                少しでも気になった方は、カジュアル面談からでもお気軽にご連絡ください。
+                「まずは話を聞いてみたい」というご相談も歓迎しています。
+              </p>
+              <p>
+                <a href="contact.html" class="btn btn--primary btn--lg">
+                  <span>お問い合わせ・エントリー</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+        
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="../index.html" class="footer__logo">
+            <span class="header__logo-mark">N</span>
+            <span class="header__logo-text">NEXUS</span>
+          </a>
+          <p class="footer__tagline">Engineering the future, today.</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="フッターナビゲーション">
+          <div class="footer__col">
+            <h4 class="footer__heading">Service</h4>
+            <ul>
+              <li><a href="service.html">AI Development</a></li>
+              <li><a href="service.html">Web Development</a></li>
+              <li><a href="service.html">DX Consulting</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__heading">Company</h4>
+            <ul>
+              <li><a href="company.html">About</a></li>
+              <li><a href="works.html">Works</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="recruit.html">Recruit</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__heading">Contact</h4>
+            <ul>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="mailto:info@nexus-example.com">info@nexus-example.com</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 NEXUS Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="page-top" id="pageTop" aria-label="ページトップへ戻る">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
